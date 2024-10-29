@@ -15,4 +15,4 @@ function doianh() {
     document.getElementById('img').src = sliders[curimg].src;
 }
 
-setInterval(doianh, 4000);
+setInterval(doianh, 3000);
