@@ -66,6 +66,6 @@ function validateForm(event) {
         localStorage.setItem('userData', JSON.stringify(userData));
         // Có thể thêm thông báo thành công ở đây
         alert("Đăng ký thành công!");
-        window.location.href = 'log/login.html'; 
+        window.location.href = 'ttps://Thandang0.github.io/Trangchu/log/login.html'; 
     }
 }
