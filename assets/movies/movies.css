@@ -5,7 +5,7 @@
 body{
     display: flex;
     color: whitesmoke;
-    background-color: #555357;
+    background: linear-gradient(#222222, #343435, #656668);
     flex-direction: column;
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
