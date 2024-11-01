@@ -46,12 +46,12 @@ function validateForm(event) {
     //ktra dữ lie tren local
     const storedUserData = JSON.parse(localStorage.getItem('userData'));
     
-    if (storedUserData) {
+    if (storedUserData && valid) {
         // So sánh giá trị
-        if (fullname.value === storedUserData.username && password.value === storedUserData.password) {
+        if (fullname.value === storedUserData.fullname && password.value === storedUserData.password) {
             // Nếu giống nhau, có thể cập nhật hoặc thực hiện hành động cần thiết
             localStorage.setItem('userData', JSON.stringify({
-                username: fullname.value,
+                fullname: fullname.value,
                 password: password.value
             }));
             alert("Đăng nhập thành công!"); // Thông báo thành công
