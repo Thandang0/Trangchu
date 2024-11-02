@@ -60,3 +60,26 @@
     height:30px;
     background-color:#939191;
 }
+/*    */
+#displayuser{
+    display: none;
+    font-size:25px;
+    line-height: 80px;
+    margin-right:40px;
+    cursor: pointer;
+}
+#logout{
+    display:none;
+    background-color: #fff;
+    color:#000;
+    line-height: 40px;
+    text-align: center;
+    margin-right:40px ;
+    cursor: pointer;
+}
+.user:hover #logout{
+    display:block;
+}
+#logout:active{
+    color:#4b4949;
+}
