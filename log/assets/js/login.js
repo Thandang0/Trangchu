@@ -55,6 +55,7 @@ function validateForm(event) {
                 password: password.value
             }));
             alert("Đăng nhập thành công!"); // Thông báo thành công
+            localStorage.setItem('login', 'true');
             // Có thể chuyển hướng hoặc thực hiện hành động khác
             window.location.href = 'https://thandang0.github.io/Trangchu/'; // Ví dụ chuyển hướng
         } 
